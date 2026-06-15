@@ -2,6 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: registro-atividades
 resources:
+<<<<<<< HEAD
   - namespace.yaml
   - db-credentials-secret.yaml
   - postgres-pvc.yaml
@@ -9,7 +10,14 @@ resources:
   - postgres-service.yaml
   - api-deployment.yaml
   - api-service.yaml
+=======
+- namespace.yaml
+- postgres-pvc.yaml
+- postgres-deployment.yaml
+- postgres-service.yaml
+- api-deployment.yaml
+- api-service.yaml
+>>>>>>> 33f813e477a6e20f47194a7001288b9a05d7a183
 images:
-  - name: paulok3tchup/registro-k8s-2fort
-    newName: paulok3tchup/registro-k8s-2fort
-    newTag: latest
+- name: paulok3tchup/registro-k8s-2fort
+  newTag: 56a5a5cc0c0bd69fb105b61a17d33c5ef8faeabd
