@@ -20,4 +20,4 @@ resources:
 >>>>>>> 33f813e477a6e20f47194a7001288b9a05d7a183
 images:
 - name: paulok3tchup/registro-k8s-2fort
-  newTag: 56a5a5cc0c0bd69fb105b61a17d33c5ef8faeabd
+  newTag: ff9392869fe2d8ec4cbf13b6bbdff48a7025fa26
